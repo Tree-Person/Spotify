@@ -11,7 +11,7 @@ import { BiSearch } from "react-icons/bi";
 
 import useAuthModal from "@/hooks/useAuthModal";
 import { useUser } from "@/hooks/useUser";
-import usePlayer from "@/hooks/userPlayer";
+import usePlayer from "@/hooks/usePlayer";
 
 import Button from "./Button";
 

@@ -8,7 +8,7 @@ interface PlayerStore {
   reset: () => void;
 }
 
-const userPlayer = create<PlayerStore>((set) => ({
+const usePlayer = create<PlayerStore>((set) => ({
   ids: [],
   activeId: undefined,
   setId: (id: string) => set({ activeId: id }),
@@ -16,4 +16,4 @@ const userPlayer = create<PlayerStore>((set) => ({
   reset: () => set({ ids: [], activeId: undefined })
 }));
 
-export default userPlayer;
+export default usePlayer;

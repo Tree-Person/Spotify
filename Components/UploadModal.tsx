@@ -10,9 +10,9 @@ import { useRouter } from "next/navigation";
 import useUploadModal from '@/hooks/useUploadModal';
 import { useUser } from "@/hooks/useUser";
 
-import Modal from './Modal';
-import Input from './Input';
-import Button from './Button';
+import Modal from '@/components/Modal';
+import Input from '@/components/Input';
+import Button from "@/components/Button"
 
 const UploadModal = () => {
   const [isLoading, setIsLoading] = useState(false);
